@@ -20,10 +20,24 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.maddy_16.notesapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/98a7f074-ab3b-494e-b2e9-b15482c58fec"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "98a7f074-ab3b-494e-b2e9-b15482c58fec"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
